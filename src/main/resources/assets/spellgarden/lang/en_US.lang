@@ -1,0 +1,4 @@
+tile.spellgarden.inputflower.name=Input Flower
+tile.spellgarden.genericflower.name=Generic Flower
+
+message.spellgarden.counter_par=Counter: %d

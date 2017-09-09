@@ -1,0 +1,8 @@
+[{
+  "modid": "spellgarden",
+  "name": "Spell Garden",
+  "description": "Uses flowers generate mana and cast spells.",
+  "version": "${version}",
+  "mcversion": "1.10.2",
+  "authorList": ["Kelpsie"]
+}]
