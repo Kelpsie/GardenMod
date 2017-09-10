@@ -1,4 +1,10 @@
-tile.spellgarden.inputflower.name=Input Flower
 tile.spellgarden.genericflower.name=Generic Flower
+tile.spellgarden.inputflower.name=Input Flower
+tile.spellgarden.tflower.name=T Flower
+tile.spellgarden.throughflower.name=Through Flower
+tile.spellgarden.leftflower.name=Left Flower
+tile.spellgarden.rightflower.name=Right Flower
+tile.spellgarden.jumpflower.name=Jump Flower
+tile.spellgarden.backflower.name=Back Flower
 
 message.spellgarden.counter_par=Counter: %d

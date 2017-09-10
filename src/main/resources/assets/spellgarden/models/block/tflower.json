@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "spellgarden:blocks/tflower",
+    "down": "spellgarden:blocks/tflower",
+    "up": "spellgarden:blocks/tflower",
+    "east": "spellgarden:blocks/tflower",
+    "west": "spellgarden:blocks/tflower",
+    "north": "spellgarden:blocks/tflower",
+    "south": "spellgarden:blocks/tflower"
+  }
+}

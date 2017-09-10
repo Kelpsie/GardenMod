@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "spellgarden:blocks/throughflower",
+    "down": "spellgarden:blocks/throughflower",
+    "up": "spellgarden:blocks/throughflower",
+    "east": "spellgarden:blocks/throughflower",
+    "west": "spellgarden:blocks/throughflower",
+    "north": "spellgarden:blocks/throughflower",
+    "south": "spellgarden:blocks/throughflower"
+  }
+}

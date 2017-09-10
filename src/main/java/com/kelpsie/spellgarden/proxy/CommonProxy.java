@@ -4,8 +4,20 @@ import com.kelpsie.spellgarden.Config;
 import com.kelpsie.spellgarden.ModBlocks;
 import com.kelpsie.spellgarden.SpellGarden;
 import com.kelpsie.spellgarden.blocks.FlowerTileEntity;
+import com.kelpsie.spellgarden.blocks.backflower.BackFlower;
+import com.kelpsie.spellgarden.blocks.backflower.BackFlowerTileEntity;
 import com.kelpsie.spellgarden.blocks.inputflower.InputFlower;
 import com.kelpsie.spellgarden.blocks.inputflower.InputFlowerTileEntity;
+import com.kelpsie.spellgarden.blocks.jumpflower.JumpFlower;
+import com.kelpsie.spellgarden.blocks.jumpflower.JumpFlowerTileEntity;
+import com.kelpsie.spellgarden.blocks.leftflower.LeftFlower;
+import com.kelpsie.spellgarden.blocks.leftflower.LeftFlowerTileEntity;
+import com.kelpsie.spellgarden.blocks.rightflower.RightFlower;
+import com.kelpsie.spellgarden.blocks.rightflower.RightFlowerTileEntity;
+import com.kelpsie.spellgarden.blocks.tflower.TFlower;
+import com.kelpsie.spellgarden.blocks.tflower.TFlowerTileEntity;
+import com.kelpsie.spellgarden.blocks.throughflower.ThroughFlower;
+import com.kelpsie.spellgarden.blocks.throughflower.ThroughFlowerTileEntity;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
@@ -44,15 +56,47 @@ public class CommonProxy {
 
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
+
         event.getRegistry().register(new InputFlower());
-        //GameRegistry.registerTileEntity(FlowerTileEntity.class, SpellGarden.MODID + "_inputflower");
         GameRegistry.registerTileEntity(InputFlowerTileEntity.class, SpellGarden.MODID + "_inputflower");
+
+        event.getRegistry().register(new TFlower());
+        GameRegistry.registerTileEntity(TFlowerTileEntity.class, SpellGarden.MODID + "_tflower");
+
+        event.getRegistry().register(new ThroughFlower());
+        GameRegistry.registerTileEntity(ThroughFlowerTileEntity.class, SpellGarden.MODID + "_throughflower");
+
+        event.getRegistry().register(new LeftFlower());
+        GameRegistry.registerTileEntity(LeftFlowerTileEntity.class, SpellGarden.MODID + "_leftflower");
+
+        event.getRegistry().register(new RightFlower());
+        GameRegistry.registerTileEntity(RightFlowerTileEntity.class, SpellGarden.MODID + "_rightflower");
+
+        event.getRegistry().register(new JumpFlower());
+        GameRegistry.registerTileEntity(JumpFlowerTileEntity.class, SpellGarden.MODID + "_jumpflower");
+
+        event.getRegistry().register(new BackFlower());
+        GameRegistry.registerTileEntity(BackFlowerTileEntity.class, SpellGarden.MODID + "_backflower");
+
+
 
     }
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new ItemBlock(ModBlocks.inputFlower).setRegistryName(ModBlocks.inputFlower.getRegistryName()));
+
+        event.getRegistry().register(new ItemBlock(ModBlocks.tFlower).setRegistryName(ModBlocks.tFlower.getRegistryName()));
+
+        event.getRegistry().register(new ItemBlock(ModBlocks.throughFlower).setRegistryName(ModBlocks.throughFlower.getRegistryName()));
+
+        event.getRegistry().register(new ItemBlock(ModBlocks.leftFlower).setRegistryName(ModBlocks.leftFlower.getRegistryName()));
+
+        event.getRegistry().register(new ItemBlock(ModBlocks.rightFlower).setRegistryName(ModBlocks.rightFlower.getRegistryName()));
+
+        event.getRegistry().register(new ItemBlock(ModBlocks.jumpFlower).setRegistryName(ModBlocks.jumpFlower.getRegistryName()));
+
+        event.getRegistry().register(new ItemBlock(ModBlocks.backFlower).setRegistryName(ModBlocks.backFlower.getRegistryName()));
 
     }
 

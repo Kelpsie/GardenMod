@@ -69,7 +69,7 @@ public class InputFlower extends Flower {
                 component.getStyle().setColor(TextFormatting.GREEN);
                 player.sendStatusMessage(component, false);
 
-                getTE(world, pos).recieveMana(new ManaPacket( true, true, false, 1000, 0, 1 ));
+                getTE(world, pos).recieveMana(new ManaPacket( true, true, true, 10, 0, 1 ));
             }
         }
         // Return true also on the client to make sure that MC knows we handled this and will not try to place

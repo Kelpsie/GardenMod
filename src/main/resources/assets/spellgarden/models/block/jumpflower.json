@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "spellgarden:blocks/jumpflower",
+    "down": "spellgarden:blocks/jumpflower",
+    "up": "spellgarden:blocks/jumpflower",
+    "east": "spellgarden:blocks/jumpflower",
+    "west": "spellgarden:blocks/jumpflower",
+    "north": "spellgarden:blocks/jumpflower",
+    "south": "spellgarden:blocks/jumpflower"
+  }
+}

@@ -6,6 +6,7 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ITickable;
 import net.minecraft.util.math.BlockPos;
+import scala.Console;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -56,6 +57,7 @@ public class FlowerTileEntity extends TileEntity implements ITickable {
             BlockPos to = pos.up();
             int x = 0;
             int z = 0;
+            mana.Direction = Math.floorMod(mana.Direction, 4);
             switch (mana.Direction) {
                 case 0: to = pos.north(mana.Distance);
                         x = 0; z = -1;

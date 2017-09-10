@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "spellgarden:blocks/leftflower",
+    "down": "spellgarden:blocks/leftflower",
+    "up": "spellgarden:blocks/leftflower",
+    "east": "spellgarden:blocks/leftflower",
+    "west": "spellgarden:blocks/leftflower",
+    "north": "spellgarden:blocks/leftflower",
+    "south": "spellgarden:blocks/leftflower"
+  }
+}

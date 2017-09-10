@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "particle": "spellgarden:blocks/blocktexture",
-    "down": "spellgarden:blocks/blocktexture",
-    "up": "spellgarden:blocks/blocktexture",
-    "east": "spellgarden:blocks/blocktexture",
-    "west": "spellgarden:blocks/blocktexture",
-    "north": "spellgarden:blocks/blocktexture",
-    "south": "spellgarden:blocks/blocktexture"
+    "particle": "spellgarden:blocks/inputflower",
+    "down": "spellgarden:blocks/inputflower",
+    "up": "spellgarden:blocks/inputflower",
+    "east": "spellgarden:blocks/inputflower",
+    "west": "spellgarden:blocks/inputflower",
+    "north": "spellgarden:blocks/inputflower",
+    "south": "spellgarden:blocks/inputflower"
   }
 }
